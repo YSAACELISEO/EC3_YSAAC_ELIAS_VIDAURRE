@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6FAF9"
+    tools:context=".ProductsFragment">
+
+    <!-- Consultar productos atravez del metodo Get -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="casual"
+            android:text="Servicio REST en Formato JSON con Retrofit de Productos - Categorias - Clientes-Detalle de la compras de la tienda ShoppingShow"
+            android:textColor="@color/text"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/get_productos"
+            android:layout_width="368dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0E0E0E"
+            android:text="Get-Request-Consultar-Producto"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/get_categorias"
+            android:layout_width="368dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0E0E0E"
+            android:text="Get-Request-Consultar-Categorias"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/get_clientes"
+            android:layout_width="368dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0E0E0E"
+            android:text="Get-Request-Consultar-Clientes"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/get_DetalleCompra"
+            android:layout_width="368dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0E0E0E"
+            android:text="Get-Request-Consultar-Detalle-Compra"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

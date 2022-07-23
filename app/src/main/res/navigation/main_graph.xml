@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ec3_ysaac_eliseo_elias_vidaurre.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.ec3_ysaac_eliseo_elias_vidaurre.CategoryFragment"
+        android:label="fragment_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/productsFragment"
+        android:name="com.example.ec3_ysaac_eliseo_elias_vidaurre.ProductsFragment"
+        android:label="fragment_products"
+        tools:layout="@layout/fragment_products" />
+    <fragment
+        android:id="@+id/comprasFragment"
+        android:name="com.example.ec3_ysaac_eliseo_elias_vidaurre.ComprasFragment"
+        android:label="fragment_compras"
+        tools:layout="@layout/fragment_compras" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.ec3_ysaac_eliseo_elias_vidaurre.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/reclamosFragment"
+        android:name="com.example.ec3_ysaac_eliseo_elias_vidaurre.ReclamosFragment"
+        android:label="fragment_reclamos"
+        tools:layout="@layout/fragment_reclamos" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.example.ec3_ysaac_eliseo_elias_vidaurre.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" />
+</navigation>
